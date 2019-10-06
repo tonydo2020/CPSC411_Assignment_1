@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Rules void hello1(int hour)"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="properties"
+
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:gravity="center"
+
+
+            />
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:layout_weight="3"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day Hour Classification"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="category"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day and Time"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                />
+        </GridLayout>
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCFFFF"
+        android:columnCount="3"
+        android:rowCount="2"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Rule"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="C1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="A1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="5pt" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="min&#60;&#61;hour &#38;&#38; hour&#60;&#61;max"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="5pt"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="System.out.println(greeting + &#34;, World!&#34;)"
+            android:textColor="#000000"
+            android:textSize="5pt" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCFFFF"
+        android:columnCount="4"
+        android:rowCount="1"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:gravity="left"
+            android:text=""
+            android:textColor="#000000"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="int min"
+            android:textColor="#000000"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="int max"
+            android:textColor="#000000"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:gravity="center"
+            android:text="String Greeting"
+            android:textColor="#000000"
+
+            />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="4"
+        android:background="#FFFFFF"
+        >
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="4"
+            android:columnCount="1"
+            android:background="#FFFFFF"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rule"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R10"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R20"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R30"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R40"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFFF99"
+            android:columnCount="1"
+            android:rowCount="4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="left"
+                android:text="From"
+                android:textColor="#000000"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="right"
+                android:text="0"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="right"
+                android:text="12"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="right"
+                android:text="18"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="right"
+                android:text="22"
+                android:textColor="#000000" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFFF99"
+            android:columnCount="1"
+            android:rowCount="4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="left"
+                android:text="To"
+                android:textColor="#000000"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="right"
+                android:text="11"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="right"
+                android:text="17"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="right"
+                android:text="21"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="right"
+                android:text="23"
+                android:textColor="#000000" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:background="#FFCC99"
+            android:columnCount="1"
+            android:rowCount="4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="left"
+                android:text="Greeting"
+                android:textColor="#000000"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="left"
+                android:text="Good Morning"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="left"
+                android:text="Good Afternoon"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="left"
+                android:text="Good Evening"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:gravity="left"
+                android:text="Good Night"
+                android:textColor="#000000" />
+
+        </GridLayout>
+
+    </GridLayout>
+
+
+</LinearLayout>
